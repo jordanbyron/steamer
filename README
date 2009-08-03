@@ -1,0 +1,9 @@
+Steamer is a simple ruby class that periodically checks the status of a steam community user.
+
+USAGE:
+
+test_steamer = Steamer.new "STEAM_ID"
+    
+test_steamer.watch_user_status do |message|
+  puts message
+end
